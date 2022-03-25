@@ -41,6 +41,10 @@ background-color: $background-color;
   padding-left: 10px;
 } */
 
+.navegador{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .product__galery{
   display: flex;
   flex-wrap: wrap;
@@ -51,15 +55,50 @@ background-color: $background-color;
   text-align: center;
 
 }
-.footer{
+.footer_items{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   justify-items: center;
   background-color: rgb(240, 199, 146);
+  padding: 10px
 }
 .carousel{
-  width: 500px;
+  width: 400px;
+  }
 
-}
+  img2{
+    height: 65vh;
+    min-height: 300px
+    
+  }
+  .card-img-top{
+    width: 200px;
+    height: 250px;
+  }
+
+  .carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .space{
+    padding: 100px;
+  }
+  .carrusel{
+    display: flex;
+    justify-content: center;
+
+  }
+  .footer{
+    padding-left: 10px;
+    padding-right: 10px;
+  
+  }
+  
